@@ -13,6 +13,8 @@ LICENSE  = LGPLv2
 SUPPORTURL = http://www.networkupstools.org/documentation.html
 
 GNU_CONFIGURE = 1
-CONFIGURE_ARGS =
+INSTALL_PREFIX = /usr/local/$(PKG_NAME)
+CONFIGURE_ARGS = --prefix=$(INSTALL_PREFIX)
 
 include ../../mk/spksrc.cross-cc.mk
+
