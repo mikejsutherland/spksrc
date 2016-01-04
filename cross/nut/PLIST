@@ -36,6 +36,7 @@ bin:bin/rhino
 bin:bin/riello_ser
 bin:bin/safenet
 bin:bin/skel
+bin:bin/snmp-ups
 bin:bin/solis
 bin:bin/tripplite
 bin:bin/tripplitesu
@@ -46,12 +47,12 @@ bin:bin/upslog
 bin:bin/upsrw
 bin:bin/upssched-cmd
 bin:bin/victronups
-rsc:etc/nut.conf.sample
-rsc:etc/ups.conf.sample
-rsc:etc/upsd.conf.sample
-rsc:etc/upsd.users.sample
-rsc:etc/upsmon.conf.sample
-rsc:etc/upssched.conf.sample
+rcs:etc/nut.conf.sample
+rcs:etc/ups.conf.sample
+rcs:etc/upsd.conf.sample
+rcs:etc/upsd.users.sample
+rcs:etc/upsmon.conf.sample
+rcs:etc/upssched.conf.sample
 lnk:lib/libnutclient.so
 lnk:lib/libnutclient.so.0
 lib:lib/libnutclient.so.0.0.0
