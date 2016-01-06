@@ -53,13 +53,9 @@ rcs:etc/upsd.conf.sample
 rcs:etc/upsd.users.sample
 rcs:etc/upsmon.conf.sample
 rcs:etc/upssched.conf.sample
-lib:lib/libnutclient.a
-lib:lib/libnutclient.la
 lnk:lib/libnutclient.so
 lnk:lib/libnutclient.so.0
 lib:lib/libnutclient.so.0.0.0
-lib:lib/libupsclient.a
-lib:lib/libupsclient.la
 lnk:lib/libupsclient.so
 lnk:lib/libupsclient.so.4
 lib:lib/libupsclient.so.4.0.0
